@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects li {
+    margin: 20px;
+    flex-basis: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.projects p {
+    margin-bottom: 10px;
+}
+
+.eduication {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.eduication p {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.summary {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary p {
+    margin-bottom: 20px;
+}
